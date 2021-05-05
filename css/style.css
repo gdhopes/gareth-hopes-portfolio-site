@@ -1,0 +1,102 @@
+/*
+Colors used:
+Text Color: #707070
+Primary Color: (green) #86DEAC
+Secondary Color (blue): #86D2DE
+*/
+
+
+/* typography */
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  color: #565454;
+  line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Rubik', sans-serif;
+  line-height: 1em;
+  width: 100%;
+}
+
+h1 {
+  font-size: 5em;
+  font-weight: 700;
+  color: #86DEAC;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+/* image */
+img {
+  width: 100%;
+}
+
+/* links */
+a {
+  color: #565454;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #565454;
+}
+
+a:hover,
+a:focus {
+  color: #86DEAC;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #86D2DE;
+}
+
+.button {
+  display: inline-block;
+  background-color: #86DEAC;
+  color: #FFFFFF !important;
+  font-weight: 400;
+  padding: 10px 30px 10px 30px;
+  border-radius: 30px;
+}
+
+.button:hover {
+  color: #565454 !important;
+  text-decoration: none !important;
+}
+
+.button.contact {
+  display: inline-block;
+  background-color: #86DEAC;
+  color: #FFFFFF !important;
+  font-weight: 400;
+  padding: 10px 30px 10px 30px;
+  border-radius: 30px;
+
+}
+
+.button.contact:hover {
+  color: #565454 !important;
+  text-decoration: none !important;
+}
